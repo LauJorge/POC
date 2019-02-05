@@ -11,7 +11,7 @@ Feature: Login
     Then I should be rejected
 
   Scenario: Empty email
-    Given I sign in as "" has a password "bnmbnm123"
+    Given I sign in as "" has a password "xxxxxxxx"
     When I try to login
     Then I should be rejected
 
